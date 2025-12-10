@@ -49,6 +49,7 @@ class TestTransactionValidation:
             "currency": "MXN",
             "sender_account": "1234567890",
             "receiver_account": "0987654321",
+            "timestamp": "2025-12-10T10:00:00Z",
             "description": "Pago de prueba"
         }
         
@@ -69,7 +70,8 @@ class TestTransactionValidation:
             "amount": 750000,
             "currency": "MXN",
             "sender_account": "1234567890",
-            "receiver_account": "0987654321"
+            "receiver_account": "0987654321",
+            "timestamp": "2025-12-10T10:00:00Z"
         }
         
         response = client.post("/api/v1/validate", json=transaction)
@@ -87,7 +89,8 @@ class TestTransactionValidation:
             "amount": 1000,
             "currency": "JPY",  # Moneda no permitida
             "sender_account": "1234567890",
-            "receiver_account": "0987654321"
+            "receiver_account": "0987654321",
+            "timestamp": "2025-12-10T10:00:00Z"
         }
         
         response = client.post("/api/v1/validate", json=transaction)
@@ -100,7 +103,8 @@ class TestTransactionValidation:
             "amount": 2000000,  # Excede límite de 1M
             "currency": "MXN",
             "sender_account": "1234567890",
-            "receiver_account": "0987654321"
+            "receiver_account": "0987654321",
+            "timestamp": "2025-12-10T10:00:00Z"
         }
         
         response = client.post("/api/v1/validate", json=transaction)
@@ -113,7 +117,8 @@ class TestTransactionValidation:
             "amount": 1000,
             "currency": "MXN",
             "sender_account": "1234567890",
-            "receiver_account": "1234567890"  # Misma cuenta
+            "receiver_account": "1234567890",  # Misma cuenta
+            "timestamp": "2025-12-10T10:00:00Z"
         }
         
         response = client.post("/api/v1/validate", json=transaction)
@@ -141,7 +146,8 @@ class TestTransactionValidation:
             "amount": -1000,
             "currency": "MXN",
             "sender_account": "1234567890",
-            "receiver_account": "0987654321"
+            "receiver_account": "0987654321",
+            "timestamp": "2025-12-10T10:00:00Z"
         }
         
         response = client.post("/api/v1/validate", json=transaction)
