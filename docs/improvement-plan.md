@@ -531,9 +531,3 @@ El plan se considerará exitoso si al final de 12 semanas:
 4. **Comunicación constante** con stakeholders
 5. **Pequeños cambios incrementales** son mejores que big bang
 
----
-
-**Documento vivo - Última actualización:** Diciembre 2025  
-**Próxima revisión:** Enero 2026  
-**Owner:** DevOps Team Lead  
-**Aprobadores:** CTO, VP Engineering, Head of Product

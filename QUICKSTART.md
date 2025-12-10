@@ -26,7 +26,7 @@ git --version
 
 ```powershell
 # Clonar repositorio
-git clone https://github.com/tu-usuario/payflow-transaction-validator.git
+git clone https://github.com/AlanGaBer11/ProyectoUnidad3
 cd payflow-transaction-validator
 
 # Crear archivo de variables de entorno (opcional)
@@ -144,10 +144,3 @@ docker-compose build --no-cache
 docker-compose up -d
 ```
 
----
-
-## 📞 Soporte
-
-- **Documentación completa:** `/docs/`
-- **Issues:** GitHub Issues
-- **Email:** devops@payflow.mx

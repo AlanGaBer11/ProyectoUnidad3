@@ -446,11 +446,5 @@ curl http://localhost:8001/health
 ## 13. Referencias
 
 - **GitHub Actions Docs:** https://docs.github.com/actions
-- **Docker Best Practices:** `/docs/docker-best-practices.md`
-- **Deployment Runbook:** `/docs/runbooks/deployment.md`
-- **Rollback Runbook:** `/docs/runbooks/rollback.md`
 
----
 
-**Última actualización:** Diciembre 2025  
-**Próxima revisión:** Enero 2026

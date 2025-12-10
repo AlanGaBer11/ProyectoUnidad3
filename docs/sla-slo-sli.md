@@ -406,14 +406,4 @@ Considerar ajuste si:
 
 - Documentación de Prometheus: `/monitoring/prometheus/`
 - Dashboards de Grafana: `http://localhost:3000`
-- Runbooks de incidentes: `/docs/runbooks/`
-- Postmortems: `/docs/postmortems/`
 
----
-
-**Aprobado por:**  
-- CTO: _________________  
-- VP Engineering: _________________  
-- SRE Lead: _________________  
-
-**Fecha de próxima revisión:** Marzo 2026

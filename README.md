@@ -175,14 +175,3 @@ curl http://localhost:8000/health
 - [Plan de Mejora](docs/improvement-plan.md)
 - [SLA/SLO/SLI Detallado](docs/sla-slo-sli.md)
 
-## 👥 Contribución
-
-Este proyecto es parte de un ejercicio académico de DevOps para implementar un proceso completo de liberación, despliegue y monitoreo.
-
-## 📄 Licencia
-
-MIT License - PayFlow MX Training Project
-
----
-
-**Última actualización**: Diciembre 2025
